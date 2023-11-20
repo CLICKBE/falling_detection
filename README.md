@@ -41,4 +41,10 @@ streamlit run app_v2.py
 
 - YOLO: 535g 
 - Ours: 302g
+  
+<table>
+  <tr>
+    <td algin = center>![logo-impact](https://github.com/CLICKBE/falling_detection/assets/2494294/4d47cf9b-78c6-4bb8-9888-7c956681ebd9)</td>
+  </tr>
+</table>
 
