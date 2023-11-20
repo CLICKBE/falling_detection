@@ -1,7 +1,19 @@
-# Falling detection
+# Détection de chute
 
-The objectives of the falling detection project was to build a system that can detect people falls and send an alert message to relevant people/professional/organization.
-This project is the result of the collaborative concertation and construction of amazing people : Serra Bella, Antoine Van Malleghem, Mohamed El Amine Mokhtari and Mohamed Benkedadra.
+[FR]
+L'objectif de ce projet était le développement d'un système de détection de chute des personnes. S'il détecte une chute, le système envoie un message d'alerte aux personnes, professionnels ou organisations concernés.
+
+Ce projet est le résultat d'un travail collaboratif mené pendant le hackathon [impAct](https://le-click.be/impact/) par des personnes incroyables : Serra Bella, Antoine Van Malleghem, Mohamed El Amine Mokhtari and Mohamed Benkedadra.
+
+La détection de chute est réalisée par caméra. Pour réaliser cette tâche, deux algorithmes ont été testés :
+- YOLO
+- une méthode basée sur la position des différents joints du squelette
+
+[EN]
+The objective of the falling detection project was to build a system that can detect people falls and send an alert message to relevant people, professional or organization.
+
+This project is the result of the collaborative work led during [impAct](https://le-click.be/impact/) hackathon by amazing people : Serra Bella, Antoine Van Malleghem, Mohamed El Amine Mokhtari and Mohamed Benkedadra.
+
 Two detection methods have been tested in this project : 
 - the first one uses YOLO
 - the second one is only based on the position of skeleton joints.
@@ -41,10 +53,11 @@ streamlit run app_v2.py
 
 - YOLO: 535g 
 - Ours: 302g
-  
-<table>
-  <tr>
-    <td algin = center>![logo-impact](https://github.com/CLICKBE/falling_detection/assets/2494294/4d47cf9b-78c6-4bb8-9888-7c956681ebd9)</td>
-  </tr>
-</table>
+
+![logo-impact](https://github.com/CLICKBE/falling_detection/assets/2494294/4d47cf9b-78c6-4bb8-9888-7c956681ebd9)
+
+## Legal Notices
+This work was produced as part of the FEDER Digistorm project, co-financed by the European Union and the Wallonia Region.
+
+![Logo FEDER-FSE](https://www.enmieux.be/sites/default/files/assets/media-files/signatures/vignette_FEDER%2Bwallonie.png)
 
